@@ -1,0 +1,36 @@
+.body {
+    color: white;
+    background-image: url("../img/background.png");
+    text-align: center;
+    border-bottom: 2px;
+    border-color: white;
+}
+
+.internet{
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.navbar{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: unset;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+  }
